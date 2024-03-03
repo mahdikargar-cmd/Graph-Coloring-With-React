@@ -1,0 +1,88 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.node-label {
+  background-color: #f8f8f8;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.color-input {
+  margin-right: 10px;
+}
+
+
+
+.link-input button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-graph-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.graph-container {
+  margin-top: 20px;
+}
+.color-input-label {
+
+  align-items: center;
+margin-left: 10px;
+}
+
+.color-input-title {
+  margin-right: 10px;
+}
+.destination{
+
+  margin: 10px;
+}
+.margin-top button{
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+}
